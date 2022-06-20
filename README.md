@@ -99,4 +99,4 @@ Metrics|Validation|Test
 :----|:--------|:----|
 Accuracy|0.9869|0.986
 
-![image](https://user-images.githubusercontent.com/86637320/174533344-d8fb21f0-85eb-4673-8a9f-73061d92796f.png)
+![image](https://user-images.githubusercontent.com/86637320/174533344-d8fb21f0-85eb-4673-8a9f-73061d92796f.png)![image](https://user-images.githubusercontent.com/86637320/174539608-e9ca4813-6830-472f-a659-395ca15bff80.png)
