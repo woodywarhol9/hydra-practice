@@ -1,0 +1,12 @@
+model:
+  _target_ : torchvision.models.resnet18
+  pretrained : false
+  num_classes : ${data.num_classes}
+
+conv:
+  _target_ : torch.nn.Conv2d
+  in_channels : ${data.in_channels}
+  out_channels: 64
+  kernel_size : [1, 1]
+  stride : [1, 1]
+  padding : [1, 1]

@@ -1,0 +1,8 @@
+# MNIST DataModule
+val_split : 0.2
+num_workers : 4
+batch_size : 128
+# MNIST
+num_classes : 10
+in_channels : 1
+dims : [1, 28, 28]

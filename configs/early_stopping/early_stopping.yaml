@@ -1,0 +1,3 @@
+monitor: ${monitor}
+mode : "min"
+patience : 3

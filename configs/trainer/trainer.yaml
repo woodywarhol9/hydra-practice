@@ -1,0 +1,8 @@
+# trainer
+max_epochs: 30
+deterministic: true
+log_every_n_steps: 50
+track_grad_norm: 2
+profiler: simple
+accelerator: gpu
+devices : 1

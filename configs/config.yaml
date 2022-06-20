@@ -1,0 +1,14 @@
+# 공통 변수
+seed : 42
+monitor : "val_loss"
+
+defaults:
+  - model: resnet18
+  - data : mnist
+  - optimizer : sgd
+  - scheduler : steplr
+  - trainer : trainer
+  - logger : tensorboard
+  - early_stopping : early_stopping
+  - lr_monitor : lr_monitor
+  - checkpoint : checkpoint
