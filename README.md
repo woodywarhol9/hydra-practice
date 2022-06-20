@@ -43,6 +43,7 @@
 └── trainer.py
 ```
 ### Requirments
+---
 ```
 pip install -r requirements.txt
 ```
@@ -54,8 +55,9 @@ lightning-bolts==0.5.0
 hydra-core==1.2.0
 tensorboard==2.8.0
 ```
-## Configurations
+### Configurations
 - config.yaml
+---
 ```
 seed : 42
 monitor : "val_loss"
@@ -75,6 +77,7 @@ defaults:
 
 ### How to Run
 - yaml 파일의 configs 지정 가능
+---
 ``` bash
 python trainer.py # use defaults hydra config
 python trainer.py model=resnet34 # change resnet18 to resnet34
@@ -84,6 +87,7 @@ python trainer.py model=resnet34 # change resnet18 to resnet34
 - `outputs/날짜/시간/`에 저장
     - configurations 정보 : .hydra/config.yaml
     - log data : mnist_classifier
+---
 ```
 tensorboard --logdir=outputs/2022-06-20/13-53-43/mnist_classifier
 ```
