@@ -91,7 +91,7 @@ tensorboard --logdir=outputs/2022-06-20/13-53-43/mnist_classifier
 ```
 ### Result
 - resnet18
-- 4 epoch
+- 5 epoch에서 최고 성능  
 
 Metrics|Validation|Test
 :----|:--------|:----|
