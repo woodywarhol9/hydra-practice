@@ -44,7 +44,7 @@
 ```
 ### Requirments
 ---
-```
+``` bash
 hydra-core==1.2.0
 lightning_bolts==0.5.0
 omegaconf==2.2.2
@@ -56,7 +56,7 @@ torchvision==0.12.0+cu113
 ### Configurations
 - config.yaml
 ---
-```
+``` bash
 seed : 42
 monitor : "val_loss"
 
@@ -86,8 +86,8 @@ python trainer.py model=resnet34 # change resnet18 to resnet34
     - configurations 정보 : .hydra/config.yaml
     - log data : mnist_classifier
 ---
-```
-tensorboard --logdir=outputs/2022-06-20/13-53-43/mnist_classifier
+``` bash
+tensorboard --logdir=outputs/2022-06-20/13-53-43/mnist_classifier # 예시
 ```
 ### Result
 - resnet18
